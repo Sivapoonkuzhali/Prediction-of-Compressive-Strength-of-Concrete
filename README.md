@@ -5,12 +5,14 @@ This project aims to predict the compressive strength of concrete using its age 
 Dataset Overview
 Source: UCI Machine Learning Repository
 Original Contributor: Prof. I-Cheng Yeh, Chung-Hua University, Taiwan
+
 Dataset Characteristics
 Type: Multivariate regression
 Observations: 1030 samples
 Features: 8 input variables (quantitative)
 Target Variable: Concrete compressive strength (quantitative, MPa)
 Missing Values: None
+
 Features
 Cement (kg/m³): Primary binding material.
 Blast Furnace Slag (kg/m³): Industrial by-product used as a partial replacement for cement.
@@ -20,6 +22,7 @@ Superplasticizer (kg/m³): Chemical admixture to enhance workability.
 Coarse Aggregate (kg/m³): Larger particles in the concrete mixture.
 Fine Aggregate (kg/m³): Smaller particles in the concrete mixture.
 Age (days): Duration of curing (1 to 365 days).
+
 Target Variable
 Concrete Compressive Strength (MPa): The output variable to be predicted.
 Objective
